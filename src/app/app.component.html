@@ -1,25 +1,16 @@
-<!-- <nav mat-tab-nav-bar [backgroundColor]="background">
-    <a
-        mat-tab-link
-        *ngFor="let link of navLinks"
-        [routerLink]="link.link"
-        routerLinkActive
-        #rla="routerLinkActive"
-        [active]="rla.isActive">
-        {{link.label}}
-    </a>
-</nav> -->
-
-<mat-toolbar color="primary">
-    <a
-        mat-button
-        *ngFor="let link of navLinks"
-        [routerLink]="link.link"
-        routerLinkActive="active-link">
-        {{link.label}}
-    </a>
-</mat-toolbar>
-
-<mat-sidenav-container>
-    <router-outlet></router-outlet>
-</mat-sidenav-container>
+<app-main-nav>
+    <nav mat-tab-nav-bar [backgroundColor]="'primary'" [tabPanel]="tabPanel">
+        <a
+            mat-tab-link
+            *ngFor="let link of navLinks"
+            [routerLink]="link.link"
+            routerLinkActive
+            #rla="routerLinkActive"
+            [active]="rla.isActive">
+            {{link.label}}
+        </a>
+    </nav>
+    <mat-tab-nav-panel #tabPanel>
+        <router-outlet></router-outlet>
+    </mat-tab-nav-panel>
+</app-main-nav>

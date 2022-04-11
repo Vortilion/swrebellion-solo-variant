@@ -8,10 +8,13 @@ import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import { MaterialModule } from './material.module';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { MainNavComponent } from './main-nav/main-nav.component';
+import { LayoutModule } from '@angular/cdk/layout';
 
 @NgModule({
     declarations: [
-        AppComponent
+        AppComponent,
+        MainNavComponent
     ],
     imports: [
         BrowserModule,
@@ -25,7 +28,8 @@ import { FlexLayoutModule } from '@angular/flex-layout';
             registrationStrategy: 'registerWhenStable:30000',
         }),
         MaterialModule,
-        FlexLayoutModule
+        FlexLayoutModule,
+        LayoutModule
     ],
     providers: [],
     bootstrap: [AppComponent],
