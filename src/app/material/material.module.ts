@@ -7,6 +7,7 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
 import { MatButtonModule } from '@angular/material/button';
+import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 
 @NgModule({
     declarations: [],
@@ -18,7 +19,8 @@ import { MatButtonModule } from '@angular/material/button';
         MatSidenavModule,
         MatIconModule,
         MatListModule,
-        MatButtonModule
+        MatButtonModule,
+        MatSlideToggleModule
     ],
     exports: [
         MatTableModule,
@@ -28,7 +30,8 @@ import { MatButtonModule } from '@angular/material/button';
         MatSidenavModule,
         MatIconModule,
         MatListModule,
-        MatButtonModule
+        MatButtonModule,
+        MatSlideToggleModule
     ],
 })
 export class MaterialModule {}

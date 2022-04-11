@@ -3,7 +3,7 @@
 }
 
 .sidenav {
-  width: 200px;
+  width: 360px;
 }
 
 .mat-toolbar.mat-primary {
@@ -14,4 +14,8 @@
 
 .mat-toolbar.main-toolbar {
     z-index: 999;
+}
+
+.sidebar-options-list {
+    padding: 16px 16px 0 16px;
 }
