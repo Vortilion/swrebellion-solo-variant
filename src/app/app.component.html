@@ -7,7 +7,12 @@
             routerLinkActive
             #rla="routerLinkActive"
             [active]="rla.isActive">
-            {{link.label}}
+            <mat-icon
+                aria-hidden="false"
+                [attr.aria-label]="link.label">
+                {{ link.icon }}
+            </mat-icon>
+            <span fxHide fxShow.gt-sm>{{link.label}}</span>
         </a>
     </nav>
     <mat-tab-nav-panel #tabPanel>

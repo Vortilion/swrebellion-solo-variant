@@ -10,15 +10,19 @@ export class AppComponent implements OnInit {
     title = 'swrebellion-solo-variant';
     background: ThemePalette = 'primary';
     navLinks = [{
+        icon: 'settings',
         label: 'Setup Phase',
         link: 'setup'
     }, {
+        icon: 'assignment',
         label: 'Assignment Phase',
         link: 'assignment'
     }, {
+        icon: 'military_tech',
         label: 'Command Phase',
         link: 'command'
     }, {
+        icon: 'refresh',
         label: 'Refresh Phase',
         link: 'refresh'
     }];
