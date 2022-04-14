@@ -16,6 +16,12 @@
         </a>
     </nav>
     <mat-tab-nav-panel #tabPanel>
-        <router-outlet></router-outlet>
+        <div class="container">
+            <div class="setup-phase" fxLayout="row" fxLayoutAlign="center">
+                <div fxLayout="column" fxLayoutAlign="start center" fxFlex="90" fxFlex.gt-xs="80" fxFlex.gt-sm="70">
+                    <router-outlet></router-outlet>
+                </div>
+            </div>
+        </div>
     </mat-tab-nav-panel>
 </app-main-nav>

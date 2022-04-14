@@ -1,1 +1,71 @@
 <h2>Refresh Phase</h2>
+
+<div class="card-container" fxLayout="column" fxLayoutGap="20px">
+    <mat-card class="step-card">
+        <mat-card-title>Retrieve Leaders</mat-card-title>
+        <mat-card-content>
+            Each player takes all of his leaders from the game board and returns them to his leader pool. If a leader is still on a mission card, it returns to
+            the leader pool, and the card returns to the player’s hand
+        </mat-card-content>
+    </mat-card>
+
+    <mat-card class="step-card">
+        <mat-card-title>Draw Missions</mat-card-title>
+        <mat-card-content>
+            Rebel player draws two mission cards and, if there are more than 10 cards in his hand, he discards down to 10 cards
+
+            The Empire does not draw Mission cards during the Refresh Phase. Empire missions are drawn during the Assignment phase
+        </mat-card-content>
+    </mat-card>
+
+    <mat-card class="step-card">
+        <mat-card-title>Launch Probe Droids</mat-card-title>
+        <mat-card-content>
+            Reveal two Probe Cards, as per the normal rules
+        </mat-card-content>
+    </mat-card>
+
+    <mat-card class="step-card">
+        <mat-card-title>Draw Objective</mat-card-title>
+        <mat-card-content>
+            The Rebel player draws one objective card and adds it to his hand
+        </mat-card-content>
+    </mat-card>
+
+    <mat-card class="step-card">
+        <mat-card-title>Advance Time Marker</mat-card-title>
+        <mat-card-content>
+            Advance the time marker one space along the track. Then players recruit and/or build if any icons are shown in the time marker’s new space
+
+            Rebels Recruit
+            Rebel player draws two cards from his action deck, chooses one leader shown on either card, and places that leader in his leader pool
+
+            Empire Recruit
+            The Empire draws one Action Card, randomly choosing if there are available leaders. Draw again, if necessary
+
+            Build Units
+            The Empire Builds before the rebels
+
+            Follow normal building rules
+        </mat-card-content>
+    </mat-card>
+
+    <mat-card class="step-card">
+        <mat-card-title>Deploy</mat-card-title>
+        <mat-card-content>
+            Empire Deploy
+            The Empire Deploys before the rebels
+
+            Follow the steps below to deploy units, adhering to the max 2 units placed per system rule:
+
+            Locate the Highest Production Value System
+            Find the Theater (Space or Ground) with the fewest Units
+            Place the strongest available unit in this Theater Note: If the Empire doesn’t have a Unit to place in-Theater, place the strongest Built Unit of
+            the other Theater-type into its Theater (if there are the same number of Units in each Theater, randomly choose between the Theaters)
+            Move to the next Highest Production Value System; Resolve from the beginning of the flowchart, wrapping back around to the first Highest Production
+            Value System, if necessary
+            Rebels Deploy
+            Rebel player follows normal deployment rules
+        </mat-card-content>
+    </mat-card>
+</div>

@@ -10,11 +10,19 @@ import { MaterialModule } from './material/material.module';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { MainNavComponent } from './main-nav/main-nav.component';
 import { LayoutModule } from '@angular/cdk/layout';
+import { SetupPhaseComponent } from './setup-phase/setup-phase.component';
+import { AssignmentPhaseComponent } from './assignment-phase/assignment-phase.component';
+import { CommandPhaseComponent } from './command-phase/command-phase.component';
+import { RefreshPhaseComponent } from './refresh-phase/refresh-phase.component';
 
 @NgModule({
     declarations: [
         AppComponent,
-        MainNavComponent
+        MainNavComponent,
+        SetupPhaseComponent,
+        AssignmentPhaseComponent,
+        CommandPhaseComponent,
+        RefreshPhaseComponent
     ],
     imports: [
         BrowserModule,
