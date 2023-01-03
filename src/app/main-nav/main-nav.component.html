@@ -1,31 +1,17 @@
 <mat-sidenav-container class="sidenav-container">
-    <mat-sidenav
-        #drawer
-        class="sidenav"
-        fixedInViewport
-        [attr.role]="'navigation'"
-        [mode]="'over'"
-        [opened]="false">
-        <mat-toolbar
-            color="primary"
-            class="sidenav-toolbar">
-            Menu
+    <mat-sidenav #drawer class="sidenav" fixedInViewport [attr.role]="'navigation'" [mode]="'over'" [opened]="false">
+        <mat-toolbar color="primary" class="sidenav-toolbar">
+            Options
         </mat-toolbar>
         <mat-nav-list class="sidebar-options-list">
             <h3>Rise of the Empire Expansion</h3>
             <mat-list-item>
-                <mat-slide-toggle
-                    class="variant-selector"
-                    color="primary"
-                    [checked]="useExpansionUnitsSelected">
+                <mat-slide-toggle class="variant-selector" color="primary" [checked]="useExpansionUnitsSelected">
                     Use Expansion Units
                 </mat-slide-toggle>
             </mat-list-item>
             <mat-list-item>
-                <mat-slide-toggle
-                    class="variant-selector"
-                    color="primary"
-                    [checked]="useAdvancedTacticCardsSelected">
+                <mat-slide-toggle class="variant-selector" color="primary" [checked]="useAdvancedTacticCardsSelected">
                     Use Advanced Tactic Cards
                 </mat-slide-toggle>
             </mat-list-item>
@@ -34,37 +20,25 @@
             <h3>Variants</h3>
 
             <mat-list-item>
-                <mat-slide-toggle
-                    class="variant-selector"
-                    color="primary"
-                    [checked]="movementVariantSelected">
+                <mat-slide-toggle class="variant-selector" color="primary" [checked]="movementVariantSelected">
                     Movement Variant
                 </mat-slide-toggle>
             </mat-list-item>
 
             <mat-list-item>
-                <mat-slide-toggle
-                    class="variant-selector"
-                    color="primary"
-                    [checked]="deploymentVariantSelected">
+                <mat-slide-toggle class="variant-selector" color="primary" [checked]="deploymentVariantSelected">
                     Deployment Variant: Priority
                 </mat-slide-toggle>
             </mat-list-item>
 
             <mat-list-item>
-                <mat-slide-toggle
-                    class="variant-selector"
-                    color="primary"
-                    [checked]="unplayableMissionsVariantSelected">
+                <mat-slide-toggle class="variant-selector" color="primary" [checked]="unplayableMissionsVariantSelected">
                     Unplayable Missions Variant
                 </mat-slide-toggle>
             </mat-list-item>
 
             <mat-list-item>
-                <mat-slide-toggle
-                    class="variant-selector"
-                    color="primary"
-                    [checked]="assignmentActionCardSelected">
+                <mat-slide-toggle class="variant-selector" color="primary" [checked]="assignmentActionCardSelected">
                     Assignment Action Card Variant
                 </mat-slide-toggle>
             </mat-list-item>
@@ -72,19 +46,14 @@
     </mat-sidenav>
 
     <mat-sidenav-content>
-        <mat-toolbar
-            color="primary"
-            class="main-toolbar mat-elevation-z6">
-            <button
-                type="button"
-                aria-label="Toggle sidenav"
-                mat-icon-button
-                (click)="drawer.toggle()">
+        <mat-toolbar color="primary" class="main-toolbar mat-elevation-z6">
+            <button type="button" aria-label="Toggle sidenav" mat-icon-button (click)="drawer.toggle()">
                 <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
             </button>
             <span>
-                Star Wars Rebellion: Solo Variant (<a href="https://boardgamegeek.com/thread/1697801/solitaire-variant-empire-attacks-revised-version-1" target="_blank">by
-                Dale Buonocore</a>)
+                Star Wars Rebellion: Solo Variant (<a href="https://boardgamegeek.com/thread/1697801/solitaire-variant-empire-attacks-revised-version-1"
+                    target="_blank">by
+                    Dale Buonocore</a>)
             </span>
         </mat-toolbar>
         <ng-content></ng-content>

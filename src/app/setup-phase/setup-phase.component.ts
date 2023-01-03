@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ApplicationConfigService } from '../shared/application-config.service';
 
 @Component({
   selector: 'setup-phase',
@@ -6,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class SetupPhaseComponent {
   title = 'Setup Phase';
+
+  constructor(
+    private applicationConfigService: ApplicationConfigService
+  ) {
+
+  }
 }

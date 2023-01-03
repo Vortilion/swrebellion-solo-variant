@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
 import { Observable } from 'rxjs';
 import { map, shareReplay } from 'rxjs/operators';
+import { ApplicationConfigService } from '../shared/application-config.service';
 
 @Component({
   selector: 'app-main-nav',
@@ -22,6 +23,8 @@ export class MainNavComponent {
         shareReplay()
         );
 
-    constructor(private breakpointObserver: BreakpointObserver) {}
+    constructor(
+        private breakpointObserver: BreakpointObserver,
+        private applicationConfigService: ApplicationConfigService) {}
 
 }
