@@ -1,0 +1,125 @@
+{
+  "configVersion": 1,
+  "timestamp": 1672732747014,
+  "index": "https://vortilion.github.io/swrebellion-solo-variant/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://vortilion.github.io/swrebellion-solo-variant/favicon.ico",
+        "https://vortilion.github.io/swrebellion-solo-variant/index.html",
+        "https://vortilion.github.io/swrebellion-solo-variant/main.f0b3ba218cc857fe.js",
+        "https://vortilion.github.io/swrebellion-solo-variant/manifest.webmanifest",
+        "https://vortilion.github.io/swrebellion-solo-variant/polyfills.e41b9785f2b2db62.js",
+        "https://vortilion.github.io/swrebellion-solo-variant/runtime.f23aec0b8c23a49a.js",
+        "https://vortilion.github.io/swrebellion-solo-variant/styles.7c7de6d9911cfa5a.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://vortilion.github.io/swrebellion-solo-variant/assets/Round_Rebel_sm.png",
+        "https://vortilion.github.io/swrebellion-solo-variant/assets/SWR_Dagobah.png",
+        "https://vortilion.github.io/swrebellion-solo-variant/assets/SWR_Dagobah_bw.png",
+        "https://vortilion.github.io/swrebellion-solo-variant/assets/SWR_Dantooine.png",
+        "https://vortilion.github.io/swrebellion-solo-variant/assets/SWR_Dantooine_bw.png",
+        "https://vortilion.github.io/swrebellion-solo-variant/assets/SWR_Dathomir.png",
+        "https://vortilion.github.io/swrebellion-solo-variant/assets/SWR_Dathomir_bw.png",
+        "https://vortilion.github.io/swrebellion-solo-variant/assets/SWR_Endor.png",
+        "https://vortilion.github.io/swrebellion-solo-variant/assets/SWR_Endor_bw.png",
+        "https://vortilion.github.io/swrebellion-solo-variant/assets/SWR_Hoth.png",
+        "https://vortilion.github.io/swrebellion-solo-variant/assets/SWR_Hoth_bw.png",
+        "https://vortilion.github.io/swrebellion-solo-variant/assets/SWR_Ilum.png",
+        "https://vortilion.github.io/swrebellion-solo-variant/assets/SWR_Ilum_bw.png",
+        "https://vortilion.github.io/swrebellion-solo-variant/assets/SWR_Tatooine.png",
+        "https://vortilion.github.io/swrebellion-solo-variant/assets/SWR_Tatooine_bw.png",
+        "https://vortilion.github.io/swrebellion-solo-variant/assets/SWR_Yavin.png",
+        "https://vortilion.github.io/swrebellion-solo-variant/assets/SWR_Yavin_bw.png",
+        "https://vortilion.github.io/swrebellion-solo-variant/assets/fonts/Aurek-Besh.otf",
+        "https://vortilion.github.io/swrebellion-solo-variant/assets/fonts/Aurek-Besh.ttf",
+        "https://vortilion.github.io/swrebellion-solo-variant/assets/icons/icon-128x128.png",
+        "https://vortilion.github.io/swrebellion-solo-variant/assets/icons/icon-144x144.png",
+        "https://vortilion.github.io/swrebellion-solo-variant/assets/icons/icon-152x152.png",
+        "https://vortilion.github.io/swrebellion-solo-variant/assets/icons/icon-192x192.png",
+        "https://vortilion.github.io/swrebellion-solo-variant/assets/icons/icon-384x384.png",
+        "https://vortilion.github.io/swrebellion-solo-variant/assets/icons/icon-512x512.png",
+        "https://vortilion.github.io/swrebellion-solo-variant/assets/icons/icon-72x72.png",
+        "https://vortilion.github.io/swrebellion-solo-variant/assets/icons/icon-96x96.png",
+        "https://vortilion.github.io/swrebellion-solo-variant/assets/icons/starwars-glyphicons/chars.html",
+        "https://vortilion.github.io/swrebellion-solo-variant/assets/icons/starwars-glyphicons/css/starwars-glyphicons.css",
+        "https://vortilion.github.io/swrebellion-solo-variant/assets/icons/starwars-glyphicons/fonts/starwars-glyphicons-webfont.ttf"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://vortilion.github.io/swrebellion-solo-variant/assets/Round_Rebel_sm.png": "b3e023008be26e3ce39ac82f9e00a7b5b913e7eb",
+    "https://vortilion.github.io/swrebellion-solo-variant/assets/SWR_Dagobah.png": "40f7bc1718f3f9f6a1909ffb899509abf882098b",
+    "https://vortilion.github.io/swrebellion-solo-variant/assets/SWR_Dagobah_bw.png": "d2e97c54dd6c15992590b9cce5d6114c9cadb4d6",
+    "https://vortilion.github.io/swrebellion-solo-variant/assets/SWR_Dantooine.png": "93647dc9ec03b9cb13f49c47f27bb75b3d727e7a",
+    "https://vortilion.github.io/swrebellion-solo-variant/assets/SWR_Dantooine_bw.png": "4e336baf7a7bc299b2ffc2487439f9a7a3683b48",
+    "https://vortilion.github.io/swrebellion-solo-variant/assets/SWR_Dathomir.png": "78520119e2612a2d7c3cbcec904cfe5d8b3517df",
+    "https://vortilion.github.io/swrebellion-solo-variant/assets/SWR_Dathomir_bw.png": "4796619b0c5c985a2b22dc6d81e875225fdd5612",
+    "https://vortilion.github.io/swrebellion-solo-variant/assets/SWR_Endor.png": "7b9e562c7f06260d5faaf0cc5006e356cb83b837",
+    "https://vortilion.github.io/swrebellion-solo-variant/assets/SWR_Endor_bw.png": "dd4611255276e6a22db57193a1ec42a9220abce3",
+    "https://vortilion.github.io/swrebellion-solo-variant/assets/SWR_Hoth.png": "90ba5a669fae534b4d6c33e9feb83e6be23652f6",
+    "https://vortilion.github.io/swrebellion-solo-variant/assets/SWR_Hoth_bw.png": "14b769367b7c624c2610b3733e78180d4c79c8a6",
+    "https://vortilion.github.io/swrebellion-solo-variant/assets/SWR_Ilum.png": "61b0e95e7224c99a227e6244a6b2a49400952cf8",
+    "https://vortilion.github.io/swrebellion-solo-variant/assets/SWR_Ilum_bw.png": "0ef74f1141559167572a9792f87f596755b10686",
+    "https://vortilion.github.io/swrebellion-solo-variant/assets/SWR_Tatooine.png": "6bec9d35176998c6f074879b529fef09dc8940b0",
+    "https://vortilion.github.io/swrebellion-solo-variant/assets/SWR_Tatooine_bw.png": "b2b8076f72e112b37dde0c3c2d06d55263aa4130",
+    "https://vortilion.github.io/swrebellion-solo-variant/assets/SWR_Yavin.png": "1c02f6d5aeef0c774e5388b803ed7992a0727420",
+    "https://vortilion.github.io/swrebellion-solo-variant/assets/SWR_Yavin_bw.png": "e9e938aacb928ac6e47bee1e3cee2c817f8ebdba",
+    "https://vortilion.github.io/swrebellion-solo-variant/assets/fonts/Aurek-Besh.otf": "8e88054fd18a624a514c4dc1cb7b5ff1f42dada7",
+    "https://vortilion.github.io/swrebellion-solo-variant/assets/fonts/Aurek-Besh.ttf": "6cddca5df12ca53fd4d4c483e4ae5c8741c8b041",
+    "https://vortilion.github.io/swrebellion-solo-variant/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "https://vortilion.github.io/swrebellion-solo-variant/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "https://vortilion.github.io/swrebellion-solo-variant/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "https://vortilion.github.io/swrebellion-solo-variant/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "https://vortilion.github.io/swrebellion-solo-variant/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "https://vortilion.github.io/swrebellion-solo-variant/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "https://vortilion.github.io/swrebellion-solo-variant/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "https://vortilion.github.io/swrebellion-solo-variant/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://vortilion.github.io/swrebellion-solo-variant/assets/icons/starwars-glyphicons/chars.html": "ca258af2c952da1bab3bd69f3e95adebc363066f",
+    "https://vortilion.github.io/swrebellion-solo-variant/assets/icons/starwars-glyphicons/css/starwars-glyphicons.css": "1950d767e4280b02764597618faf9d2a25549e2a",
+    "https://vortilion.github.io/swrebellion-solo-variant/assets/icons/starwars-glyphicons/fonts/starwars-glyphicons-webfont.ttf": "6539bf346da7979de886c289756046412370339f",
+    "https://vortilion.github.io/swrebellion-solo-variant/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "https://vortilion.github.io/swrebellion-solo-variant/index.html": "2979a46eb5c4491cb4541525f9047ded1683553a",
+    "https://vortilion.github.io/swrebellion-solo-variant/main.f0b3ba218cc857fe.js": "bc3a3e49a6dc084521692a640e8129e8a465ff15",
+    "https://vortilion.github.io/swrebellion-solo-variant/manifest.webmanifest": "5b71a95bb6f270b10a5f4c6bb35e0d727f3cc5e7",
+    "https://vortilion.github.io/swrebellion-solo-variant/polyfills.e41b9785f2b2db62.js": "52d4c895969b709e07ab75287583f1771cea5f7a",
+    "https://vortilion.github.io/swrebellion-solo-variant/runtime.f23aec0b8c23a49a.js": "d61fb1e3813ce24a8189b6a3255696585ae62e46",
+    "https://vortilion.github.io/swrebellion-solo-variant/styles.7c7de6d9911cfa5a.css": "8539e44f1a090da901699a23eb35499c075573ce"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
